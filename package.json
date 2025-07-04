@@ -1,0 +1,27 @@
+{
+  "name": "openai-cli-chat",
+  "version": "1.0.0",
+  "description": "A command line chat application using the OpenRouter API.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
+  },
+  "keywords": [
+    "chat",
+    "openrouter",
+    "cli",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
